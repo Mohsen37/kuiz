@@ -20,6 +20,8 @@ a:hover {
 }
 
 body {
+  color: #293264;
+  background-color: #f5f7fb;
   margin: 0;
   display: flex;
   place-items: center;
