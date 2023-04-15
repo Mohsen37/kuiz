@@ -53,9 +53,30 @@
   background-color: #4d5b9e;
 }
 
-.correct {
-  background-color: #94d7a2;
+.answer {
+  color: #4d5b9e;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+  padding: 0.25em 1.5em;
+  background-color: transparent;
+  border: 1px solid #4d5b9e;
+  border-radius: 10000px;
 }
-.inCorrect {
+.selected {
+  background-color: #d6dbf5;
+}
+
+#correct.answer {
+  background-color: #94d7a2;
+  border: 1px solid #94d7a2;
+}
+
+#incorrect.answer.selected {
   background-color: #f8bcbc;
+  border: 1px solid #f8bcbc;
+}
+
+#noSelected.answer {
+  color: gray;
+  border: 1px solid gray;
 }
